@@ -1,0 +1,73 @@
+{
+    "aliquot": 385, 
+    "analysis_type": "cocktail", 
+    "collection_version": "0.1:0.1", 
+    "comment": "New Filament", 
+    "commit": "9cb3607b1c739bea53d45415194a7a5bffda9194", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 190.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 320.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 725.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_cocktail_x1.py", 
+    "identifier": "c-02-J", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "Cocktail-02", 
+    "irradiation_level": "A", 
+    "irradiation_position": 2, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "Gas", 
+    "measurement": "jan_unknown120_60.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Jan_cocktail161", 
+    "sample": "cocktail", 
+    "spec_sha": "bfde6cd5d577109bf31f2c30f9b09494f963d539", 
+    "timestamp": "2016-09-13T08:45:38.987939", 
+    "tripped_conditional": null, 
+    "username": "MHeizler", 
+    "uuid": "7df7f627-c2a6-4359-949c-f7db3b05e11b"
+}
