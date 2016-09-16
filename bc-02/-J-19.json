@@ -1,0 +1,73 @@
+{
+    "aliquot": 19, 
+    "analysis_type": "blank_cocktail", 
+    "collection_version": "0.1:0.1", 
+    "comment": "single crystal", 
+    "commit": "7ecb5bdb289de56c4412597b050c7ac104ef0c75", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 190.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 30.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 400.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 725.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_cocktail_x1.py", 
+    "identifier": "bc-02-J", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 24, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "Blank", 
+    "measurement": "jan_unknown400_120.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Jan_cocktail161", 
+    "sample": "blank_cocktail", 
+    "spec_sha": "5bed9503d5df16228ef87408e4bc3827873eb2f0", 
+    "timestamp": "2016-09-15T18:59:51.657734", 
+    "tripped_conditional": null, 
+    "username": "root", 
+    "uuid": "fd4b1ebf-812b-4696-8576-2f76cb39a0ad"
+}
