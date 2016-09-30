@@ -1,0 +1,73 @@
+{
+    "aliquot": 28, 
+    "analysis_type": "blank_cocktail", 
+    "collection_version": "0.1:0.1", 
+    "comment": "after AX gain change", 
+    "commit": "f4e93ae82f0ebc643bab3ce8c7d81f0cf41d00e9", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 190.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 400.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 825.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_cocktail_x1.py", 
+    "identifier": "bc-02-J", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 24, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "", 
+    "measurement": "jan_unknown400_120.py", 
+    "project": "", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Jan_cocktail161", 
+    "sample": "blank_cocktail", 
+    "spec_sha": "c0f93fb87f27cb706136aea3cb095b39a8b910f6", 
+    "timestamp": "2016-09-30T12:22:07.380330", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "60862bb9-0e36-4bf1-a343-1b4bc09a8cab"
+}
