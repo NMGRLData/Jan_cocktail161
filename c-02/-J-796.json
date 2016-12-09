@@ -1,0 +1,73 @@
+{
+    "aliquot": 796, 
+    "analysis_type": "cocktail", 
+    "collection_version": "0.1:0.1", 
+    "comment": "Change steering on AX from 190 to 240", 
+    "commit": "4e505eab9513ec9dfeaf576501f53b2275ac71b7", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 240.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 50.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 400.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 825.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_cocktail_x1.py", 
+    "identifier": "c-02-J", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "Cocktail-02", 
+    "irradiation_level": "A", 
+    "irradiation_position": 2, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "Gas", 
+    "measurement": "jan_unknown400_120.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Jan_cocktail161", 
+    "sample": "cocktail", 
+    "spec_sha": "5941b588974e1f124d9ef48982453d81e7089fce", 
+    "timestamp": "2016-12-09T16:04:09.720305", 
+    "tripped_conditional": null, 
+    "username": "root", 
+    "uuid": "6b0ff9da-8567-4618-8b99-33a8d4f70706"
+}
